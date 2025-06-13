@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\pedrooleg\u00E1rio\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\models\\incoming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\models\\incoming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\pedrooleg\u00E1rio\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\pedrooleg\u00E1rio\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\pedrooleg\u00E1rio\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\models\\expensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\models\\expensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\pedrooleg\u00E1rio\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\models\\incomemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|solutionrelative:gestorfinanceiro\\models\\incomemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D52BAC87-5D9E-4EEE-BEB7-66D44B63F264}|GestorFinanceiro\\GestorFinanceiro.csproj|c:\\users\\pedrooleg\u00E1rio\\source\\repos\\gestorfinanceiro\\gestorfinanceiro\\dbcontext\\gestorfinanceirodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InComing.cs",
-              "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\InComing.cs",
-              "RelativeDocumentMoniker": "GestorFinanceiro\\Models\\InComing.cs",
-              "ToolTip": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\InComing.cs",
-              "RelativeToolTip": "GestorFinanceiro\\Models\\InComing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\appsettings.json",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\appsettings.json",
+              "ToolTip": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\appsettings.json",
+              "RelativeToolTip": "GestorFinanceiro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T12:38:52.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpenseModel.cs",
+              "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\ExpenseModel.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Models\\ExpenseModel.cs",
+              "ToolTip": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\ExpenseModel.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Models\\ExpenseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:16:51.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\UserModel.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:11:31.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IncomeModel.cs",
+              "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\IncomeModel.cs",
+              "RelativeDocumentMoniker": "GestorFinanceiro\\Models\\IncomeModel.cs",
+              "ToolTip": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\Models\\IncomeModel.cs",
+              "RelativeToolTip": "GestorFinanceiro\\Models\\IncomeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T13:17:46.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GestorFinanceiroDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\DbContext\\GestorFinanceiroDbContext.cs",
               "RelativeDocumentMoniker": "GestorFinanceiro\\DbContext\\GestorFinanceiroDbContext.cs",
@@ -47,21 +98,19 @@
               "RelativeToolTip": "GestorFinanceiro\\DbContext\\GestorFinanceiroDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T12:56:45.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T12:56:45.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GestorFinanceiro",
+              "DocumentIndex": 5,
+              "Title": "GestorFinanceiro.csproj",
               "DocumentMoniker": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\GestorFinanceiro.csproj",
               "RelativeDocumentMoniker": "GestorFinanceiro\\GestorFinanceiro.csproj",
               "ToolTip": "C:\\Users\\PedroOleg\u00E1rio\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\GestorFinanceiro.csproj",
               "RelativeToolTip": "GestorFinanceiro\\GestorFinanceiro.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-06T12:54:33.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T12:54:33.788Z"
             }
           ]
         }
