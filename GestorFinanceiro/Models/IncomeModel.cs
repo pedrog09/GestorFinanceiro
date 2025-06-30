@@ -10,6 +10,6 @@
         public string Category { get; set; }
         public string Notes { get; set; }
         public int UsuarioId { get; set; }
-        public User User { get; set; }
+        public UserModel User { get; set; }
     }
 }

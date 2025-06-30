@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9y9TvRHPZcU=",
+  "dgSpecHash": "n7qZ6Bj4v7A=",
   "success": true,
   "projectFilePath": "C:\\Users\\PedroOlegário\\source\\repos\\GestorFinanceiro\\GestorFinanceiro\\GestorFinanceiro.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PedroOlegário\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\PedroOlegário\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "C:\\Users\\PedroOlegário\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\PedroOlegário\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",

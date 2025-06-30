@@ -1,0 +1,15 @@
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\GestorFinanceiro.deps.json
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\GestorFinanceiro.runtimeconfig.json
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\appsettings.Development.json
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\appsettings.json
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\GestorFinanceiro.staticwebassets.endpoints.json
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\GestorFinanceiro.exe
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\GestorFinanceiro.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\Npgsql.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\Dapper.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\bin\Debug\GestorFinanceiro.pdb
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\obj\Debug\docker-c.35A3FFBA.Up2Date

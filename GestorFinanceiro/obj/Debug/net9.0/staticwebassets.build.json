@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "jCZIFgVBj8EINrXsGetfvDCYPfZwrQhgDG/0pi0xErw=",
+  "Source": "GestorFinanceiro",
+  "BasePath": "_content/GestorFinanceiro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

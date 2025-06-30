@@ -1,0 +1,67 @@
+name: dockercompose15178958863330862431
+services:
+  db:
+    container_name: gestorfinanceiro_db
+    environment:
+      POSTGRES_DB: gestorfinanceiro
+      POSTGRES_PASSWORD: gestor123
+      POSTGRES_USER: gestor
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: db_data
+        target: /var/lib/postgresql/data
+        volume: {}
+  gestorfinanceiro:
+    build:
+      context: C:\Users\PedroOlegário\source\repos\GestorFinanceiro
+      dockerfile: GestorFinanceiro/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: gestorfinanceiro
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\PedroOlegário\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\PedroOlegário\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose15178958863330862431_default
+volumes:
+  db_data:
+    name: dockercompose15178958863330862431_db_data
