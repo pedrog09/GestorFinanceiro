@@ -1,70 +1,39 @@
-﻿using Dapper;
-using Npgsql;
-using GestorFinanceiro.Models;
+﻿using GestorFinanceiro.Dtos;
 
 namespace GestorFinanceiro.Services
 {
     public class UserService
     {
-        private readonly string _connectionString;
-        public UserService(IConfiguration configuration) 
-        {
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
-        }
 
-        public async Task<UserModel> GetById(int id)
-        {
-            using var connection = new NpgsqlConnection(_connectionString);
-            return await connection.QueryFirstOrDefaultAsync<UserModel>("SELECT * FROM Users WHERE Id = @Id", new {Id = id});
-        }
+        private readonly UserRepository _userRepository;
 
-        public async Task<IEnumerable<UserModel>> GetAll()
+        public UserService(UserRepository userRepository)
         {
-            using var connection = new NpgsqlConnection(_connectionString);
-            return await connection.QueryAsync<UserModel>("SELECT * FROM Users");
+            _userRepository = userRepository;
         }
-
-        public async Task<UserModel> Create(UserModel user)
+        
+        public async Task<UserDto> GetById(int id)
         {
-            using var connection = new NpgsqlConnection(_connectionString);
-            var sql = @"INSERT INTO Users (name, email, password, created_at, updated_at)  
-                       VALUES (@Name, @Email, @Password, @CreatedAt, @UpdateAt)  
-                       RETURNING id";
-            user.Id = await connection.ExecuteScalarAsync<int>(sql, user);
+            return await _userRepository.GetById(id);
+        }
+        public async Task<IEnumerable<UserDto>> GetAll()
+        {
+            return await _userRepository.GetAll();
+        }
+        public async Task<UserDto?> Create(UserDto user)
+        {
+            user.CreatedAt = DateTime.UtcNow;
+            user.UpdatedAt = DateTime.UtcNow;
+            user.Id = await _userRepository.Create(user);
             return user;
         }
-
-        public async Task<UserModel> Update(UserModel user)
+        public async Task<UserDto> Update(UserDto user)
         {
-            using var connection = new NpgsqlConnection(_connectionString);
-
-            var existingUser = await GetById(user.Id);
-            if(existingUser == null)
-            {
-                throw new Exception("Usuário não encontrado");
-            }
-
-            var sql = @"UPDATE Users
-                        SET name = @Name, email = @Email create_at = @CreatedAt, update_at = @UpdatedAt 
-                        WHERE id = @Id";
-
-            var affectedRows = await connection.ExecuteAsync(sql, user);
-
-            return affectedRows > 0 ? user : null;
-
+            return await _userRepository.Update(user);
         }
-
         public async Task<bool> Delete(int id)
         {
-            using var connection = new NpgsqlConnection(_connectionString);
-            var existingUser = await GetById(id);
-            if (existingUser == null)
-            {
-                throw new Exception("Usuário não encontrado");
-            }
-
-            var sql = "DELETE FROM Users WHERE Id = @Id";
-            var affectedRows = await connection.ExecuteAsync(sql, new { Id = id });
-            return affectedRows > 0;
+            return await _userRepository.Delete(id);
         }
+    }
 }

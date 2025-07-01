@@ -8,9 +8,9 @@ namespace GestorFinanceiro.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly UserService _userService;
+        private readonly UserRepository _userService;
 
-        public UserController(UserService userService)
+        public UserController(UserRepository userService)
         {
             _userService = userService;
         }
