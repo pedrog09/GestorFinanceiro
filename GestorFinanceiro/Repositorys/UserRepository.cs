@@ -8,7 +8,7 @@ namespace GestorFinanceiro.Services
     public class UserRepository
     {
         private readonly string _connectionString;
-        public UserRepository(IConfiguration configuration) 
+        public UserRepository(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
@@ -16,7 +16,7 @@ namespace GestorFinanceiro.Services
         public async Task<UserModel> GetById(int id)
         {
             using var connection = new NpgsqlConnection(_connectionString);
-            return await connection.QueryFirstOrDefaultAsync<UserModel>("SELECT * FROM Users WHERE Id = @Id", new {Id = id});
+            return await connection.QueryFirstOrDefaultAsync<UserModel>("SELECT * FROM Users WHERE Id = @Id", new { Id = id });
         }
 
         public async Task<IEnumerable<UserModel>> GetAll()
@@ -40,7 +40,7 @@ namespace GestorFinanceiro.Services
             using var connection = new NpgsqlConnection(_connectionString);
 
             var existingUser = await GetById(user.Id);
-            if(existingUser == null)
+            if (existingUser == null)
             {
                 throw new Exception("Usuário não encontrado");
             }
@@ -68,4 +68,5 @@ namespace GestorFinanceiro.Services
             var affectedRows = await connection.ExecuteAsync(sql, new { Id = id });
             return affectedRows > 0;
         }
+    }
 }

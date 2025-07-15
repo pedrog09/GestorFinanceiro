@@ -36,7 +36,7 @@ namespace GestorFinanceiro.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] UserDto user)
         {
-            user.
+            return user;
         }
     }
 }
