@@ -10,9 +10,15 @@ namespace GestorFinanceiro.Mapper
         {
             return dtos.Select(Map);
         }
+
+        public IEnumerable<TDto> Map(IEnumerable<TModel> models)
+        {
+            return models.Select(Map);
+        }
+
         public TModel Map(TDto dto)
         {
-            var model = (TModel)Activator.CreateInstance(typeof(TDto));
+            var model = (TModel)Activator.CreateInstance(typeof(TModel));
             var properties = GetProperties<TModel, TDto>();
 
             foreach (var propertyName in properties)
@@ -21,7 +27,7 @@ namespace GestorFinanceiro.Mapper
                 model.GetType().GetProperty(propertyName)?.SetValue(model, value, null);
             }
 
-            return dto;
+            return model;
         }
 
         public TDto Map(TModel model)

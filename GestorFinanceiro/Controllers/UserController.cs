@@ -8,9 +8,9 @@ namespace GestorFinanceiro.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly UserRepository _userService;
+        private readonly UserService _userService;
 
-        public UserController(UserRepository userService)
+        public UserController(UserService userService)
         {
             _userService = userService;
         }
@@ -36,7 +36,8 @@ namespace GestorFinanceiro.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] UserDto user)
         {
-            return user;
+            UserDto createdUser = await _userService.Create(user);
+            return CreatedAtAction(nameof(GetById), new {id = createdUser.Id}, createdUser);
         }
     }
 }
