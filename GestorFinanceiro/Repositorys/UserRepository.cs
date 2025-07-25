@@ -3,7 +3,7 @@ using Npgsql;
 using GestorFinanceiro.Models;
 using GestorFinanceiro.Dtos;
 
-namespace GestorFinanceiro.Services
+namespace GestorFinanceiro.Repositorys
 {
     public class UserRepository
     {

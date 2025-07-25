@@ -1,4 +1,5 @@
-﻿using GestorFinanceiro.Adapter;
+﻿using GestorFinanceiro.Repositorys;
+using GestorFinanceiro.Adapter;
 using GestorFinanceiro.Dtos;
 using GestorFinanceiro.Models;
 

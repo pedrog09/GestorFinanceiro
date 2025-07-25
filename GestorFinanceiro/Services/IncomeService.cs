@@ -1,7 +1,6 @@
 using GestorFinanceiro.Repositorys;
 using GestorFinanceiro.Dtos;
 using GestorFinanceiro.Adapter;
-using Microsoft.AspNetCore.Mvc;
 
 
 
@@ -35,6 +34,17 @@ namespace GestorFinanceiro.Services
             var model = _adapter.Map(income);
             var createdModel = await _incomeRepository.Create(model);
             return createdModel == null ? null : _adapter.Map(createdModel);
+        }
+
+        public async Task<IncomeDto> Update(IncomeDto income)
+        {
+            var model = _adapter.Map(income);
+            var updatedModel = await _incomeRepository.Update(model);
+            return updatedModel == null ? null : _adapter.Map(updatedModel);
+        }
+        public async Task<bool> Delete(int id)
+        {
+            return await _incomeRepository.Delete(id);
         }
     }
 }
