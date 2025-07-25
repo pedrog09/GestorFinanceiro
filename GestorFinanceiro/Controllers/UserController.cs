@@ -2,6 +2,8 @@ using GestorFinanceiro.Services;
 using GestorFinanceiro.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
+
+
 namespace GestorFinanceiro.Controllers
 {
     [ApiController]
@@ -28,7 +30,7 @@ namespace GestorFinanceiro.Controllers
             var user = await _userService.GetById(id);
             if (user == null)
             {
-                return NotFound("Usu·rio n„o encontrado");
+                return NotFound("Usu√°rio n√£o encontrado");
             }
             return Ok(user);
         }
@@ -38,6 +40,20 @@ namespace GestorFinanceiro.Controllers
         {
             UserDto createdUser = await _userService.Create(user);
             return CreatedAtAction(nameof(GetById), new {id = createdUser.Id}, createdUser);
+        }
+
+        [HttpPatch]
+        public async Task<IActionResult> Update([FromBody] UserDto user) 
+        {
+            UserDto updatedUser = await _userService.Update(user);
+            return Ok(updatedUser);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            bool deletedUser = await _userService.Delete(id);
+            return Ok(deletedUser);
         }
     }
 }

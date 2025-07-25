@@ -39,3 +39,11 @@ C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug
 C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net9.0\GestorFinanceiro.pdb
 C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net9.0\GestorFinanceiro.genruntimeconfig.cache
 C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\obj\Debug\net9.0\ref\GestorFinanceiro.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PedroOlegário\source\repos\GestorFinanceiro\GestorFinanceiro\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

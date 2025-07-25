@@ -7,9 +7,8 @@
         public string Description { get; set; }
         public decimal Value { get; set; }
         public DateTime Date { get; set; }
-        public string Category { get; set; }
-        public string Notes { get; set; }
-        public int UsuarioId { get; set; }
+        public int Category { get; set; }
+        public int UserId { get; set; }
         public UserModel User { get; set; }
     }
 }
