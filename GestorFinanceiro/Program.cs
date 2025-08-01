@@ -1,7 +1,8 @@
 using GestorFinanceiro.Adapter;
+using GestorFinanceiro.Repositorys;
 using GestorFinanceiro.Services;
 using Microsoft.OpenApi.Models; // Adicione esta diretiva de namespace para resolver o erro.
-using Swashbuckle.AspNetCore.SwaggerGen; // Adicione esta diretiva de namespace para habilitar o método de extensão AddSwaggerGen.
+using Swashbuckle.AspNetCore.SwaggerGen; // Adicione esta diretiva de namespace para habilitar o mï¿½todo de extensï¿½o AddSwaggerGen.
 
 
 namespace GestorFinanceiro 
@@ -31,12 +32,24 @@ namespace GestorFinanceiro
             builder.Services.AddScoped<UserService>();
             builder.Services.AddScoped<UserAdapter>();
 
+            builder.Services.AddScoped<IncomeRepository>();
+            builder.Services.AddScoped<IncomeService>();
+            builder.Services.AddScoped<IncomeAdapter>();
+
+            builder.Services.AddScoped<ExpenseRepository>();
+            builder.Services.AddScoped<ExpenseService>();
+            builder.Services.AddScoped<ExpenseAdapter>();
+
+            builder.Services.AddScoped<CategoryRepository>();
+            builder.Services.AddScoped<CategoryService>();
+            builder.Services.AddScoped<CategoryAdapter>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger(); // Corrige o método para habilitar Swagger.
+                app.UseSwagger(); // Corrige o mï¿½todo para habilitar Swagger.
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GestorFinanceiro API v1")); // Adiciona a interface do Swagger.
             }
 

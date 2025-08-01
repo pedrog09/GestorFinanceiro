@@ -2,8 +2,6 @@ using GestorFinanceiro.Services;
 using GestorFinanceiro.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
-
-
 namespace GestorFinanceiro.Controllers
 {
     [ApiController]
@@ -28,7 +26,6 @@ namespace GestorFinanceiro.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var income = await _incomeService.GetById(id);
-            
             return Ok(income);
         }
 

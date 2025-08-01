@@ -15,8 +15,8 @@ namespace GestorFinanceiro.Services
             _expenseRepository = expenseRepository;
         }
 
-        public async Task<ExpenseDto> GetById(int id) 
-        { 
+        public async Task<ExpenseDto> GetById(int id)
+        {
             var model = await _expenseRepository.GetById(id);
             return model == null ? null : _adapter.Map(model);
         }
@@ -35,7 +35,16 @@ namespace GestorFinanceiro.Services
             return createdModel == null ? null : _adapter.Map(createdModel);
         }
 
+        public async Task<ExpenseDto> Update(ExpenseDto expense)
+        {
+            var model = _adapter.Map(expense);
+            var updatedModel = await _expenseRepository.Update(model);
+            return updatedModel == null ? null : _adapter.Map(updatedModel);
+        }
 
-
+        public async Task<bool> Delete(int id)
+        {
+            return await _expenseRepository.Delete(id);
+        }
     }
 }
