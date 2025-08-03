@@ -2,10 +2,11 @@
 using GestorFinanceiro.Adapter;
 using GestorFinanceiro.Dtos;
 using GestorFinanceiro.Models;
+using GestorFinanceiro.Services.Interfaces;
 
 namespace GestorFinanceiro.Services
 {
-    public class ExpenseService
+    public class ExpenseService : IExpenseService
     {
         private readonly ExpenseRepository _expenseRepository;
         private readonly ExpenseAdapter _adapter = new();

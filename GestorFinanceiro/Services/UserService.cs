@@ -2,10 +2,11 @@
 using GestorFinanceiro.Adapter;
 using GestorFinanceiro.Dtos;
 using GestorFinanceiro.Models;
+using GestorFinanceiro.Services.Interfaces;
 
 namespace GestorFinanceiro.Services
 {
-    public class UserService
+    public class UserService : IUserService
     {
 
         private readonly UserRepository _userRepository;

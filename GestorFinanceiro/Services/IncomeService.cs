@@ -1,12 +1,13 @@
 using GestorFinanceiro.Repositorys;
 using GestorFinanceiro.Dtos;
 using GestorFinanceiro.Adapter;
+using GestorFinanceiro.Services.Interfaces;
 
 
 
 namespace GestorFinanceiro.Services
 {
-    public class IncomeService
+    public class IncomeService : IIncomeService
     {
         private readonly IncomeRepository _incomeRepository;
         private readonly IncomeAdapter _adapter = new();

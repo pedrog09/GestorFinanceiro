@@ -5,12 +5,12 @@ using GestorFinanceiro.Dtos;
 namespace GestorFinanceiro.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")] 
+    [Route("api/[controller]")]
     public class CategoryController : ControllerBase
     {
         private readonly CategoryService _categoryService;
 
-        public CategoryController(CategoryService categoryService) 
+        public CategoryController(CategoryService categoryService)
         {
             _categoryService = categoryService;
         }
@@ -35,7 +35,7 @@ namespace GestorFinanceiro.Controllers
             var categories = await _categoryService.GetSystemCategories();
             return Ok(categories);
         }
-        [HttpGet("system/type/{type}")] 
+        [HttpGet("system/type/{type}")]
         public async Task<IActionResult> GetSystemCategoriesByType(string type)
         {
             var categories = await _categoryService.GetSystemCategoriesByType(type);
@@ -52,8 +52,26 @@ namespace GestorFinanceiro.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CategoryDto category)
         {
-            var createdCategory = await _categoryService.Create(category);
-            return CreatedAtAction(nameof(GetById), new { id = createdCategory.Id }, createdCategory);
+            CategoryDto createdCategory = await _categoryService.Create(category);
+            return Ok(createdCategory);
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] CategoryDto category)
+        {
+            CategoryDto updatedCategory = await _categoryService.Update(category);
+            return Ok(updatedCategory);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id, int userId)
+        {
+            bool deletedCategory = await _categoryService.Delete(id, userId);
+            if (deletedCategory)
+            {
+                return NoContent(); // 204 No Content
+            }
+            return NotFound(); // 404 Not Found
         }
     }
 }
