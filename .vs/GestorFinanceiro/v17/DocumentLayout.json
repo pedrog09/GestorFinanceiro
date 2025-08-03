@@ -139,7 +139,7 @@
               "RelativeDocumentMoniker": "GestorFinanceiro\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\troll\\OneDrive\\Documentos\\GitHub\\GestorFinanceiro\\GestorFinanceiro\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "GestorFinanceiro\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T01:26:40.879Z",
               "EditorCaption": ""
@@ -154,8 +154,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Services\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T17:59:38.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T17:59:38.912Z"
             },
             {
               "$type": "Document",
@@ -167,8 +166,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Services\\ExpenseService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T02:08:50.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T02:08:50.075Z"
             },
             {
               "$type": "Document",
@@ -180,8 +178,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Repositorys\\CategoryRepository.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAADgv0EAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T03:44:23.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T03:44:23.821Z"
             },
             {
               "$type": "Document",
@@ -193,8 +190,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Adapter\\ExpenseAdapter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T02:18:51.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T02:18:51.065Z"
             },
             {
               "$type": "Document",
@@ -206,8 +202,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:20:44.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T13:20:44.539Z"
             },
             {
               "$type": "Document",
@@ -219,8 +214,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Repositorys\\IncomeRepository.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwBIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T01:49:07.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T01:49:07.534Z"
             },
             {
               "$type": "Document",
@@ -232,8 +226,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Repositorys\\ExpenseRepository.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T02:01:59.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T02:01:59.86Z"
             },
             {
               "$type": "Document",
@@ -245,8 +238,7 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-07-21T22:37:08.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T22:37:08.715Z"
             },
             {
               "$type": "Document",
@@ -258,8 +250,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Models\\CategoryModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T17:57:44.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T17:57:44.698Z"
             },
             {
               "$type": "Document",
@@ -271,8 +262,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Dtos\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T18:03:17.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T18:03:17.593Z"
             },
             {
               "$type": "Document",
@@ -284,8 +274,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Adapter\\BaseAdapter.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADgvx0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T18:56:22.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T18:56:22.41Z"
             },
             {
               "$type": "Document",
@@ -297,8 +286,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Adapter\\UserAdapter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T20:40:15.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T20:40:15.844Z"
             },
             {
               "$type": "Document",
@@ -310,8 +298,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Adapter\\CategoryAdapter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T18:08:37.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T18:08:37.812Z"
             },
             {
               "$type": "Document",
@@ -371,8 +358,7 @@
               "RelativeToolTip": "GestorFinanceiro\\Models\\IncomeModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T13:17:46.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T13:17:46.725Z"
             },
             {
               "$type": "Document",

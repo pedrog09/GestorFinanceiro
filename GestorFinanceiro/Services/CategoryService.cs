@@ -2,10 +2,11 @@
 using GestorFinanceiro.Dtos;
 using GestorFinanceiro.Models;
 using GestorFinanceiro.Repositorys;
+using GestorFinanceiro.Services.Interfaces;
 
 namespace GestorFinanceiro.Services
 {
-    public class CategoryService
+    public class CategoryService : ICategoryService
     {
 
         private readonly CategoryRepository _categoryRepository;
